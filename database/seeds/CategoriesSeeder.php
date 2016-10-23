@@ -14,12 +14,12 @@ class CategoriesSeeder extends Seeder
         DB::table('categories')->truncate();
         DB::table('category_post')->truncate();
 
-        createCategory(['name' => 'News']);
-        createCategory(['name' => 'Plugins']);
+        createCategory(['name' => 'Movies']);
+        createCategory(['name' => 'Codes']);
         createCategory(['name' => 'Tutorials']);
         createCategory(['name' => 'Meetups']);
         $featured = createCategory(['name' => 'Featured']);
-        
+
         $categories = \App\Category::take(4)->get();
         foreach (\App\Post::all() as $post) {
             $toAttach = $categories->take(rand(1,5));
