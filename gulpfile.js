@@ -20,10 +20,11 @@ require('laravel-elixir-livereload');
 
 elixir(function(mix) {
     mix.less('../themes/clean-blog/clean-blog.less')
-    
+
     mix.browserify('main.js')
     mix.browserify('theme.js')
-    mix.version(['public/js/main.js', 'public/js/theme.js']);
+    mix.browserify('home.js')
+    mix.version(['public/js/main.js', 'public/js/theme.js','public/js/home.js']);
 
     mix.livereload();
 });
