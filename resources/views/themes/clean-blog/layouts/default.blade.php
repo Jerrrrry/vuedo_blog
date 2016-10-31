@@ -39,6 +39,7 @@
       ga('send', 'pageview');
 
     </script>
+    <script src="//static.miniclipcdn.com/js/game-embed.js"></script>
 
 </head>
 
