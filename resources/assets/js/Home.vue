@@ -6,7 +6,7 @@
           <!-- each component is wrapped by a waterfall slot -->
           <waterfall-slot v-for="(item, index) in items" :width="item.width" :height="item.height" :order="index" :key="item.id">
             <!--
-              <h1>{{item.name}}</h1>
+              <h1>{{item}}</h1>
             -->
           </waterfall-slot>
         </waterfall>
@@ -17,6 +17,7 @@
 
 <script>
 import { Waterfall, WaterfallSlot } from 'vue-waterfall'
+
 
 export default {
     components: {

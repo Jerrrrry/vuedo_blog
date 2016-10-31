@@ -14825,7 +14825,7 @@ exports.default = {
     replace: false
 };
 if (module.exports.__esModule) module.exports = module.exports.default
-;(typeof module.exports === "function"? module.exports.options: module.exports).template = "\n<div id=\"app\">\n    <div class=\"content-wrapper\">\n        <h1>hello</h1>\n        <waterfall :line-gap=\"200\" :watch=\"items\">\n          <!-- each component is wrapped by a waterfall slot -->\n          <waterfall-slot v-for=\"(item, index) in items\" :width=\"item.width\" :height=\"item.height\" :order=\"index\" :key=\"item.id\">\n            <!--\n              <h1>{{item.name}}</h1>\n            -->\n          </waterfall-slot>\n        </waterfall>\n    </div>\n</div>\n\n"
+;(typeof module.exports === "function"? module.exports.options: module.exports).template = "\n<div id=\"app\">\n    <div class=\"content-wrapper\">\n        <h1>hello</h1>\n        <waterfall :line-gap=\"200\" :watch=\"items\">\n          <!-- each component is wrapped by a waterfall slot -->\n          <waterfall-slot v-for=\"(item, index) in items\" :width=\"item.width\" :height=\"item.height\" :order=\"index\" :key=\"item.id\">\n            <!--\n              <h1>{{item}}</h1>\n            -->\n          </waterfall-slot>\n        </waterfall>\n    </div>\n</div>\n\n"
 if (module.hot) {(function () {  module.hot.accept()
   var hotAPI = require("vue-hot-reload-api")
   hotAPI.install(require("vue"), true)

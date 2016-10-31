@@ -3,9 +3,9 @@
     <!-- Logo -->
     <a @click="goHome" href="#" class="logo">
       <!-- mini logo for sidebar mini 50x50 pixels -->
-      <span class="logo-mini"><b>V</b>UE</span>
+      <span class="logo-mini"><b>T</b>gr8</span>
       <!-- logo for regular state and mobile devices -->
-      <span class="logo-lg"><b>Vue.js</b> News</span>
+      <span class="logo-lg"><b>Toogr8</b> News</span>
     </a>
     <!-- Header Navbar -->
     <nav class="navbar navbar-static-top" role="navigation">
