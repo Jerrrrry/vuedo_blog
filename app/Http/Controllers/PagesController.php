@@ -19,6 +19,13 @@ class PagesController extends Controller
         return view(config('theme.default.pages').'.index')->withPosts($posts);
     }
 
+    //waterflow
+
+    public function waterflow() {
+        $posts = PostsRepo::getPosts(10, 'owner');
+        return view('waterflow')->withPosts($posts);
+    }
+
     /**
      * Display the specified post.
      *

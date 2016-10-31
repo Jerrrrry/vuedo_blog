@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>Dashboard - Vue.js Feed</title>
+    <title>Dashboard Toogr8</title>
     <link rel="shortcut icon" href="{{ config('website.icon') }}">
     <!-- Fonts -->
     <!-- Bootstrap 3.3.6 -->
@@ -56,4 +56,3 @@
 @endif
 </body>
 </html>
-

@@ -43,6 +43,7 @@
     "dropzone": "^4.3.0",
     "simplemde": "^1.11.2",
     "vue-multiselect": "^0.3.0",
+    "vue-waterfall": "^1.0.1",
     "vuejs-paginator": "^1.0.14"
   },
   "author": "Alex Kyriakidis <hootlex@icloud.com>",
