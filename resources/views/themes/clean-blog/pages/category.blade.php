@@ -10,7 +10,7 @@
                     <div class="site-heading">
                         <h1>Toogr8</h1>
                         <hr class="small">
-                        <h4 class="subheading">A collection of interesting things</h4>
+                        <span class="subheading">A collection of interesting things</span>
                     </div>
                 </div>
             </div>
