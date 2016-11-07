@@ -24,6 +24,12 @@ Route::group(['middleware' => 'web'], function () {
     Route::get('/category/{categories}', ['as' => 'web.category', 'uses' => 'PagesController@category']);
     //waterflow
     Route::get('waterflow', ['as' => 'web.waterflow', 'uses' => 'PagesController@waterflow']);
+    //home
+    Route::group(['prefix' => 'home'], function () {
+        Route::get('/{vue_capture?}', function () {
+            return view('home');
+        })->where('vue_capture', '[\/\w\.-]*');
+    });
 
 });
 

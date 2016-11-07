@@ -11,13 +11,13 @@ Vue.use(VueResource)
 
 var router = new VueRouter({
     history: true,
-    root: 'waterflow'
+    root: 'home'
 })
 
 router.map({
     '/': {
-        component: require('./components/Home.vue')
-    },
+        component: require('./components/Page.vue')
+    }
 })
 
-router.start(Home, '#home')
+router.start(Home, 'body')
