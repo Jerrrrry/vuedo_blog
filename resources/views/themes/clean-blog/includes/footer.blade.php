@@ -4,14 +4,14 @@
 <footer>
     <div class="container">
         <div class="row">
-          <!--UberCPM.com BANNER 728x90 - DO NOT MODIFY-->
-<script type="text/javascript"><!--
-document.write('<s'+'cript type="text/javascript" src="//ubercpm.com/show.php?z=26&pl=54251&j=1&code='+new Date().getTime()+'"></s'+'cript>');
-// --></script>
-<!--UberCPM.com BANNER 728x90 - DO NOT MODIFY-->
+
             <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
 
-
+              <!--UberCPM.com BANNER 728x90 - DO NOT MODIFY-->
+<script type="text/javascript"><!--
+document.write('<s'+'cript type="text/javascript" src="//ubercpm.com/show.php?z=26&pl=56852&j=1&code='+new Date().getTime()+'"></s'+'cript>');
+// --></script>
+<!--UberCPM.com BANNER 728x90 - DO NOT MODIFY-->
                 <ul class="list-inline text-center">
                     <li>
                         <a href="#">
