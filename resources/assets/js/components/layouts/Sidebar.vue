@@ -32,6 +32,7 @@
         </li>
         <li><a v-link="{ path: '/categories' }"><i class="fa fa-th-large"></i> <span>Categories</span></a></li>
         <li><a v-link="{ path: '/users' }"><i class="fa fa-users"></i> <span>Users</span></a></li>
+        <li><a v-link="{ path: '/images' }"><i class="fa fa-users"></i> <span>Images</span></a></li>
       </ul>
       <!-- /.sidebar-menu -->
     </section>

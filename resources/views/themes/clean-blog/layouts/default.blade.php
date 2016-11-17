@@ -16,8 +16,6 @@
 
     <!-- Theme CSS -->
     <link href="{{ asset('css/clean-blog.css') }}" rel="stylesheet">
-
-    <!-- Custom Fonts -->
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet" type="text/css">
     <link href='http://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
     <link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
@@ -40,6 +38,7 @@
 
     </script>
     <script src="//static.miniclipcdn.com/js/game-embed.js"></script>
+    <script src="https://cdn.rawgit.com/google/code-prettify/master/loader/run_prettify.js"></script>
 
 </head>
 

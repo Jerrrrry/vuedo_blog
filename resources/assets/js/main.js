@@ -45,6 +45,9 @@ router.map({
     '/profile': {
         component: require('./components/Profile.vue')
     },
+    '/images': {
+        component: require('./components/Image.vue')
+    },
 })
 
 router.alias({
