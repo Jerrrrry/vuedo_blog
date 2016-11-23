@@ -55,7 +55,6 @@
     </div>
   </div>
 </div>
-@include('ads')
 <!-- Main Content -->
 <div class="container">
     <div class="row">
