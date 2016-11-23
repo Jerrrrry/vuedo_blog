@@ -24,3 +24,5 @@
     </div>
     <!-- /.container -->
 </nav>
+
+@include('ads')
