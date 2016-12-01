@@ -1,7 +1,7 @@
 @extends('themes.clean-blog.layouts.default')
 <!--http://lorempixel.com/400/200-->
 @section('header')
-    <header class="intro-header" style="background-image: url({{ $post->image_url or '/imglib/random-'.rand(1,4).'.jpg'}})">
+    <header class="intro-header" style="background-image: url({{ $post->image_url or '/imglib/random-'.rand(1,6).'.jpg'}})">
         <div class="container">
             <div class="row">
                 <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
