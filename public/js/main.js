@@ -35735,7 +35735,7 @@ exports.insert = function (css) {
 'use strict';
 
 Object.defineProperty(exports, "__esModule", {
-  value: true
+    value: true
 });
 
 var _Navbar = require('./components/layouts/Navbar.vue');
@@ -35749,25 +35749,25 @@ var _Sidebar2 = _interopRequireDefault(_Sidebar);
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 exports.default = {
-  components: {
-    Navbar: _Navbar2.default,
-    Sidebar: _Sidebar2.default
-  },
-  replace: false
+    components: {
+        Navbar: _Navbar2.default,
+        Sidebar: _Sidebar2.default
+    },
+    replace: false
 };
 if (module.exports.__esModule) module.exports = module.exports.default
-;(typeof module.exports === "function"? module.exports.options: module.exports).template = "\n<div>\n  <navbar></navbar>\n  <sidebar></sidebar>\n</div>\n  <div id=\"app\">\n    <div class=\"content-wrapper\">\n      <!-- Content Header (Page header) -->\n      <section class=\"content-header\">\n        <h1>\n          Admin Panel\n          <small>Everything is here.</small>\n        </h1>\n      </section>\n\n      <!-- Main content -->\n      <section class=\"content\">\n        <!-- Your Page Content Here -->\n        <!-- route outlet -->\n        <router-view></router-view>\n      </section>\n      <!-- /.content -->\n    </div>\n  </div>\n"
+;(typeof module.exports === "function"? module.exports.options: module.exports).template = "\n\n<div>\n    <navbar></navbar>\n    <sidebar></sidebar>\n</div>\n<div id=\"app\">\n    <div class=\"content-wrapper\">\n        <!-- Content Header (Page header) -->\n        <section class=\"content-header\">\n            <h1>\n          Admin Panel\n          <small>Everything is here.</small>\n        </h1>\n        </section>\n\n        <!-- Main content -->\n        <section class=\"content\">\n            <!-- Your Page Content Here -->\n            <!-- route outlet -->\n            <router-view></router-view>\n        </section>\n        <!-- /.content -->\n    </div>\n</div>\n\n"
 if (module.hot) {(function () {  module.hot.accept()
   var hotAPI = require("vue-hot-reload-api")
   hotAPI.install(require("vue"), true)
   if (!hotAPI.compatible) return
   if (!module.hot.data) {
-    hotAPI.createRecord("_v-5b024a3e", module.exports)
+    hotAPI.createRecord("_v-240336bd", module.exports)
   } else {
-    hotAPI.update("_v-5b024a3e", module.exports, (typeof module.exports === "function" ? module.exports.options : module.exports).template)
+    hotAPI.update("_v-240336bd", module.exports, (typeof module.exports === "function" ? module.exports.options : module.exports).template)
   }
 })()}
-},{"./components/layouts/Navbar.vue":105,"./components/layouts/Sidebar.vue":106,"vue":92,"vue-hot-reload-api":88}],96:[function(require,module,exports){
+},{"./components/layouts/Navbar.vue":107,"./components/layouts/Sidebar.vue":108,"vue":92,"vue-hot-reload-api":88}],96:[function(require,module,exports){
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -35918,9 +35918,9 @@ if (module.hot) {(function () {  module.hot.accept()
   hotAPI.install(require("vue"), true)
   if (!hotAPI.compatible) return
   if (!module.hot.data) {
-    hotAPI.createRecord("_v-717c1896", module.exports)
+    hotAPI.createRecord("_v-e21cdede", module.exports)
   } else {
-    hotAPI.update("_v-717c1896", module.exports, (typeof module.exports === "function" ? module.exports.options : module.exports).template)
+    hotAPI.update("_v-e21cdede", module.exports, (typeof module.exports === "function" ? module.exports.options : module.exports).template)
   }
 })()}
 },{"../Pnotice.js":96,"vue":92,"vue-hot-reload-api":88}],98:[function(require,module,exports){
@@ -36020,14 +36020,14 @@ if (module.hot) {(function () {  module.hot.accept()
     document.head.removeChild(__vueify_style__)
   })
   if (!module.hot.data) {
-    hotAPI.createRecord("_v-7970b518", module.exports)
+    hotAPI.createRecord("_v-40b0c950", module.exports)
   } else {
-    hotAPI.update("_v-7970b518", module.exports, (typeof module.exports === "function" ? module.exports.options : module.exports).template)
+    hotAPI.update("_v-40b0c950", module.exports, (typeof module.exports === "function" ? module.exports.options : module.exports).template)
   }
 })()}
 },{"dropzone":66,"vue":92,"vue-hot-reload-api":88,"vueify/lib/insert-css":93}],99:[function(require,module,exports){
 var __vueify_insert__ = require("vueify/lib/insert-css")
-var __vueify_style__ = __vueify_insert__.insert("\nh1[_v-4e34c73e] {\n  color: #42b983;\n}\n")
+var __vueify_style__ = __vueify_insert__.insert("\nh1[_v-7321723d] {\n  color: #42b983;\n}\n")
 'use strict';
 
 Object.defineProperty(exports, "__esModule", {
@@ -36088,19 +36088,19 @@ exports.default = {
   }
 };
 if (module.exports.__esModule) module.exports = module.exports.default
-;(typeof module.exports === "function"? module.exports.options: module.exports).template = "\n  <!-- Horizontal Form -->\n<div class=\"box box-info\" _v-4e34c73e=\"\">\n  <div class=\"box-header with-border\" _v-4e34c73e=\"\">\n    <h3 class=\"box-title\" _v-4e34c73e=\"\">Edit Category</h3>\n  </div>\n  <!-- /.box-header -->\n  <!-- form start -->\n  <form @keydown.enter.prevent=\"deleteCategory\" class=\"form-horizontal\" _v-4e34c73e=\"\">\n    <div class=\"box-body\" _v-4e34c73e=\"\">\n      <div class=\"form-group\" _v-4e34c73e=\"\">\n        <label for=\"title\" class=\"col-sm-1 control-label\" _v-4e34c73e=\"\">Title</label>\n        <div class=\"col-sm-11\" _v-4e34c73e=\"\">\n          <input type=\"text\" class=\"form-control\" id=\"title\" placeholder=\"title\" v-model=\"category.name\" _v-4e34c73e=\"\">\n        </div>\n      </div>\n      <div class=\"form-group\" _v-4e34c73e=\"\">\n        <label for=\"icon\" class=\"col-sm-1 control-label\" _v-4e34c73e=\"\">Icon</label>\n        <div class=\"col-sm-11\" _v-4e34c73e=\"\">\n          <input class=\"form-control\" id=\"icon\" placeholder=\"fa fa-icon\" v-model=\"category.icon\" _v-4e34c73e=\"\">\n        </div>\n      </div>\n    </div>\n    <!-- /.box-body -->\n    <div class=\"box-footer\" _v-4e34c73e=\"\">\n      <button class=\"btn btn-flat btn-info pull-right\" @click=\"updateCategory(category)\" _v-4e34c73e=\"\">Save category</button>\n      <button class=\"btn btn-flat btn-danger\" @click=\"deleteCategory(category)\" _v-4e34c73e=\"\">Delete</button>\n    </div>\n    <!-- /.box-footer -->\n  </form>\n</div>\n"
+;(typeof module.exports === "function"? module.exports.options: module.exports).template = "\n  <!-- Horizontal Form -->\n<div class=\"box box-info\" _v-7321723d=\"\">\n  <div class=\"box-header with-border\" _v-7321723d=\"\">\n    <h3 class=\"box-title\" _v-7321723d=\"\">Edit Category</h3>\n  </div>\n  <!-- /.box-header -->\n  <!-- form start -->\n  <form @keydown.enter.prevent=\"deleteCategory\" class=\"form-horizontal\" _v-7321723d=\"\">\n    <div class=\"box-body\" _v-7321723d=\"\">\n      <div class=\"form-group\" _v-7321723d=\"\">\n        <label for=\"title\" class=\"col-sm-1 control-label\" _v-7321723d=\"\">Title</label>\n        <div class=\"col-sm-11\" _v-7321723d=\"\">\n          <input type=\"text\" class=\"form-control\" id=\"title\" placeholder=\"title\" v-model=\"category.name\" _v-7321723d=\"\">\n        </div>\n      </div>\n      <div class=\"form-group\" _v-7321723d=\"\">\n        <label for=\"icon\" class=\"col-sm-1 control-label\" _v-7321723d=\"\">Icon</label>\n        <div class=\"col-sm-11\" _v-7321723d=\"\">\n          <input class=\"form-control\" id=\"icon\" placeholder=\"fa fa-icon\" v-model=\"category.icon\" _v-7321723d=\"\">\n        </div>\n      </div>\n    </div>\n    <!-- /.box-body -->\n    <div class=\"box-footer\" _v-7321723d=\"\">\n      <button class=\"btn btn-flat btn-info pull-right\" @click=\"updateCategory(category)\" _v-7321723d=\"\">Save category</button>\n      <button class=\"btn btn-flat btn-danger\" @click=\"deleteCategory(category)\" _v-7321723d=\"\">Delete</button>\n    </div>\n    <!-- /.box-footer -->\n  </form>\n</div>\n"
 if (module.hot) {(function () {  module.hot.accept()
   var hotAPI = require("vue-hot-reload-api")
   hotAPI.install(require("vue"), true)
   if (!hotAPI.compatible) return
   module.hot.dispose(function () {
-    __vueify_insert__.cache["\nh1[_v-4e34c73e] {\n  color: #42b983;\n}\n"] = false
+    __vueify_insert__.cache["\nh1[_v-7321723d] {\n  color: #42b983;\n}\n"] = false
     document.head.removeChild(__vueify_style__)
   })
   if (!module.hot.data) {
-    hotAPI.createRecord("_v-4e34c73e", module.exports)
+    hotAPI.createRecord("_v-7321723d", module.exports)
   } else {
-    hotAPI.update("_v-4e34c73e", module.exports, (typeof module.exports === "function" ? module.exports.options : module.exports).template)
+    hotAPI.update("_v-7321723d", module.exports, (typeof module.exports === "function" ? module.exports.options : module.exports).template)
   }
 })()}
 },{"../Pnotice.js":96,"vue":92,"vue-hot-reload-api":88,"vueify/lib/insert-css":93}],100:[function(require,module,exports){
@@ -36267,15 +36267,15 @@ exports.default = {
     }
 };
 if (module.exports.__esModule) module.exports = module.exports.default
-;(typeof module.exports === "function"? module.exports.options: module.exports).template = "\n<link rel=\"stylesheet\" href=\"https://cdn.jsdelivr.net/simplemde/latest/simplemde.min.css\">\n<section class=\"content\">\n    <div class=\"row\">\n        <div class=\"col-md-12\">\n          <a v-if=\"post.status == 'approved'\" href=\"/blog/{{post.slug}}\" target=\"blank\" class=\"btn btn-lg btn-flat btn-success\" role=\"button\" style=\"margin-bottom: 15px;\">\n            View Post\n          </a>\n            <div class=\"box box-info\">\n                <div class=\"box-header\">\n                    <h3 class=\"box-title\">Post Editor\n                        <small>Markdown Editor</small>\n                    </h3>\n                </div>\n                <div class=\"box-body pad\">\n                    <div class=\"form-horizontal\" enctype=\"multipart/form-data\">\n                      <div class=\"form-group\">\n                        <label for=\"title\" class=\"col-sm-1 control-label\">Title</label>\n                        <div class=\"col-sm-11\">\n                          <input class=\"form-control\" id=\"title\" placeholder=\"title\" v-model=\"post.title\">\n                        </div>\n                      </div>\n                      <div class=\"form-group\">\n                        <label for=\"categories\" class=\"col-sm-1 control-label\">Select categories</label>\n                        <div class=\"col-sm-11\">\n                            <multiselect :selected.sync=\"post.categories.data\" :options=\"options2\" :multiple=\"true\" key=\"hashid\" label=\"name\" :on-change=\"onChangeAction\">\n\n                            </multiselect>\n                        </div>\n                      </div>\n                      <div class=\"form-group\">\n                          <label for=\"image\" class=\"col-sm-1 control-label\">Image</label>\n                          <div class=\"col-sm-5\">\n                              <dropzone :model=\"post.image\" :action=\"'/api/posts/'+postId+'/image'\"></dropzone>\n                          </div>\n                      </div>\n                      <div class=\"form-group\">\n                        <label for=\"description\" class=\"col-sm-1 control-label\">Description</label>\n                        <div class=\"col-sm-11\">\n                          <input class=\"form-control\" id=\"description\" placeholder=\"description\" v-model=\"post.description\">\n                        </div>\n                      </div>\n                        <textarea id=\"mdeditor\" name=\"content\"></textarea>\n                        <button v-if=\"isPublished\" type=\"button\" @click=\"publishPost(post)\" class=\"btn btn-lg btn-success btn-flat pull-right\">\n                            Publish Post\n                        </button>\n                        <button type=\"button\" @click=\"updatePost(post)\" class=\"btn btn-lg btn-primary btn-flat pull-right\">Save Post</button>\n                        <button class=\"btn btn-danger btn-flat btn-lg\" @click=\"deletePost(post)\">Delete\n                        </button>\n                    </div>\n                </div>\n            </div>\n            <!-- /.box -->\n        </div>\n        <!-- /.col-->\n    </div>\n    <!-- ./row -->\n</section>\n"
+;(typeof module.exports === "function"? module.exports.options: module.exports).template = "\n<link rel=\"stylesheet\" href=\"https://cdn.jsdelivr.net/simplemde/latest/simplemde.min.css\">\n<section class=\"content\">\n    <div class=\"row\">\n        <div class=\"col-md-12\">\n           <pre>{{ post | json }}</pre>\n\n        </div>\n        <div class=\"col-md-12\">\n           <pre>{{ options2 | json }}</pre>\n\n        </div>\n        <div class=\"col-md-12\">\n          <a v-if=\"post.status == 'approved'\" href=\"/blog/{{post.slug}}\" target=\"blank\" class=\"btn btn-lg btn-flat btn-success\" role=\"button\" style=\"margin-bottom: 15px;\">\n            View Post\n          </a>\n            <div class=\"box box-info\">\n                <div class=\"box-header\">\n                    <h3 class=\"box-title\">Post Editor\n                        <small>Markdown Editor</small>\n                    </h3>\n                </div>\n                <div class=\"box-body pad\">\n                    <div class=\"form-horizontal\" enctype=\"multipart/form-data\">\n                      <div class=\"form-group\">\n                        <label for=\"title\" class=\"col-sm-1 control-label\">Title</label>\n                        <div class=\"col-sm-11\">\n                          <input class=\"form-control\" id=\"title\" placeholder=\"title\" v-model=\"post.title\">\n                        </div>\n                      </div>\n                      <div class=\"form-group\">\n                        <label for=\"categories\" class=\"col-sm-1 control-label\">Select categories</label>\n                        <div class=\"col-sm-11\">\n                            <multiselect :selected.sync=\"post.categories.data\" :options=\"options2\" :multiple=\"true\" key=\"hashid\" label=\"name\" :on-change=\"onChangeAction\">\n\n                            </multiselect>\n                        </div>\n                      </div>\n                      <div class=\"form-group\">\n                          <label for=\"image\" class=\"col-sm-1 control-label\">Image</label>\n                          <div class=\"col-sm-5\">\n                              <dropzone :model=\"post.image\" :action=\"'/api/posts/'+postId+'/image'\"></dropzone>\n                          </div>\n                      </div>\n                      <div class=\"form-group\">\n                        <label for=\"description\" class=\"col-sm-1 control-label\">Description</label>\n                        <div class=\"col-sm-11\">\n                          <input class=\"form-control\" id=\"description\" placeholder=\"description\" v-model=\"post.description\">\n                        </div>\n                      </div>\n                        <textarea id=\"mdeditor\" name=\"content\"></textarea>\n                        <button v-if=\"isPublished\" type=\"button\" @click=\"publishPost(post)\" class=\"btn btn-lg btn-success btn-flat pull-right\">\n                            Publish Post\n                        </button>\n                        <button type=\"button\" @click=\"updatePost(post)\" class=\"btn btn-lg btn-primary btn-flat pull-right\">Save Post</button>\n                        <button class=\"btn btn-danger btn-flat btn-lg\" @click=\"deletePost(post)\">Delete\n                        </button>\n                    </div>\n                </div>\n            </div>\n            <!-- /.box -->\n        </div>\n        <!-- /.col-->\n    </div>\n    <!-- ./row -->\n</section>\n"
 if (module.hot) {(function () {  module.hot.accept()
   var hotAPI = require("vue-hot-reload-api")
   hotAPI.install(require("vue"), true)
   if (!hotAPI.compatible) return
   if (!module.hot.data) {
-    hotAPI.createRecord("_v-38607483", module.exports)
+    hotAPI.createRecord("_v-946ccf42", module.exports)
   } else {
-    hotAPI.update("_v-38607483", module.exports, (typeof module.exports === "function" ? module.exports.options : module.exports).template)
+    hotAPI.update("_v-946ccf42", module.exports, (typeof module.exports === "function" ? module.exports.options : module.exports).template)
   }
 })()}
 },{"../Pnotice.js":96,"./Dropzone.vue":98,"babel-runtime/core-js/promise":1,"simplemde":87,"vue":92,"vue-hot-reload-api":88,"vue-multiselect/lib/vue-multiselect.js":89}],101:[function(require,module,exports){
@@ -36316,12 +36316,187 @@ if (module.hot) {(function () {  module.hot.accept()
   hotAPI.install(require("vue"), true)
   if (!hotAPI.compatible) return
   if (!module.hot.data) {
-    hotAPI.createRecord("_v-07c0c490", module.exports)
+    hotAPI.createRecord("_v-98e5e0d8", module.exports)
   } else {
-    hotAPI.update("_v-07c0c490", module.exports, (typeof module.exports === "function" ? module.exports.options : module.exports).template)
+    hotAPI.update("_v-98e5e0d8", module.exports, (typeof module.exports === "function" ? module.exports.options : module.exports).template)
   }
 })()}
 },{"vue":92,"vue-hot-reload-api":88}],102:[function(require,module,exports){
+'use strict';
+
+Object.defineProperty(exports, "__esModule", {
+    value: true
+});
+
+var _promise = require('babel-runtime/core-js/promise');
+
+var _promise2 = _interopRequireDefault(_promise);
+
+var _simplemde = require('simplemde');
+
+var _simplemde2 = _interopRequireDefault(_simplemde);
+
+var _Dropzone = require('./img/Dropzone.vue');
+
+var _Dropzone2 = _interopRequireDefault(_Dropzone);
+
+var _vueMultiselect = require('vue-multiselect/lib/vue-multiselect.js');
+
+var _vueMultiselect2 = _interopRequireDefault(_vueMultiselect);
+
+var _Pnotice = require('../Pnotice.js');
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+exports.default = {
+    created: function created() {
+        this.postId = this.$route.params.hashid;
+        this.fetchPost();
+        this.fetchCatetgories();
+    },
+
+    components: {
+        Dropzone: _Dropzone2.default,
+        Multiselect: _vueMultiselect2.default
+    },
+    ready: function ready() {
+        this.simplemde = new _simplemde2.default({
+            element: document.getElementById("mdeditor"),
+            spellChecker: false
+        });
+    },
+    data: function data() {
+        return {
+            post: {
+                categories: {
+                    data: []
+                }
+            },
+            postId: '',
+            simplemde: '',
+            options2: [],
+            values: []
+        };
+    },
+
+    methods: {
+        fetchPost: function fetchPost() {
+            this.$http({
+                url: '/api/posts/' + this.postId + '?include=categories',
+                method: 'GET'
+            }).then(function (response) {
+                this.$set('post', response.data);
+                this.simplemde.value(this.post.content);
+                this.$set('values', response.data.categories.data);
+            });
+        },
+        updatePost: function updatePost(post) {
+            var _this = this;
+
+            post.content = this.simplemde.value();
+            return new _promise2.default(function (resolve, reject) {
+                _this.$http.patch('/api/posts/' + post.hashid, post).then(function (response) {
+                    (0, _Pnotice.show_stack_success)('Post saved!', response);
+                    resolve();
+                }, function (response) {
+                    (0, _Pnotice.show_stack_error)('Failed to save post!', response);
+                    reject();
+                });
+            });
+        },
+        publishPost: function publishPost(post) {
+            var _this2 = this;
+
+            if (this.values === undefined || this.values == 0) {
+                swal('Sorry', 'Please add a category before publishing this post!', 'info');
+            } else {
+                (function () {
+                    var self = _this2;
+                    swal({
+                        title: 'You are about to publish this post!',
+                        text: 'Are you sure?',
+                        type: 'warning',
+                        showCancelButton: true,
+                        confirmButtonText: 'Yes, publish it!',
+                        cancelButtonText: 'No, not yet.'
+                    }).then(function () {
+                        self.updatePost(post).then(function () {
+                            self.$http.post('/api/posts/' + post.hashid + '/publish', post).then(function (response) {
+                                swal('Published!', 'Your post has been published to the world!.', 'success');
+                                this.$router.go('/posts/');
+                            }, function (response) {
+                                (0, _Pnotice.show_stack_error)('Failed to publish post!', response);
+                            });
+                        });
+                    }, function (dismiss) {
+                        // dismiss can be 'cancel', 'overlay', 'close', 'timer'
+                        if (dismiss === 'cancel') {
+                            swal('Cancelled', 'Your post is safe :)', 'error');
+                        }
+                    });
+                })();
+            }
+        },
+        fetchCatetgories: function fetchCatetgories() {
+            this.$http({ url: '/api/categories', method: 'GET' }).then(function (response) {
+                this.$set('options2', response.data.data);
+            });
+        },
+        onChangeAction: function onChangeAction(value) {
+            this.values = value;
+            this.$http.patch('/api/posts/' + this.postId + '/categories', { categories: value }).then(function (response) {
+                (0, _Pnotice.show_stack_success)('Categories updated!', response);
+            }, function (response) {
+                (0, _Pnotice.show_stack_error)('Failed update categories!', response);
+            });
+        },
+        deletePost: function deletePost(post) {
+            var self = this;
+            swal({
+                title: 'Are you sure?',
+                text: 'You will not be able to recover this post!',
+                type: 'warning',
+                showCancelButton: true,
+                confirmButtonText: 'Yes, delete it!',
+                cancelButtonText: 'No, keep it'
+            }).then(function () {
+                self.$http.delete('/api/posts/' + post.hashid, post).then(function (response) {
+                    self.$router.go('/posts');
+                    swal('Deleted!', 'Your post has been deleted.', 'success');
+                }, function (response) {
+                    (0, _Pnotice.show_stack_error)('Deletion of post went wrong.', response);
+                });
+            }, function (dismiss) {
+                // dismiss can be 'cancel', 'overlay', 'close', 'timer'
+                if (dismiss === 'cancel') {
+                    swal('Cancelled', 'Your post is safe :)', 'error');
+                }
+            });
+        }
+    },
+    computed: {
+        isPublished: function isPublished() {
+            if (this.post.status !== 'approved') {
+                return true;
+            } else {
+                return false;
+            }
+        }
+    }
+};
+if (module.exports.__esModule) module.exports = module.exports.default
+;(typeof module.exports === "function"? module.exports.options: module.exports).template = "\n<link rel=\"stylesheet\" href=\"https://cdn.jsdelivr.net/simplemde/latest/simplemde.min.css\">\n<section class=\"content\">\n    <div class=\"row\">\n        <div class=\"col-md-12\">\n          <a v-if=\"post.status == 'approved'\" href=\"/blog/{{post.slug}}\" target=\"blank\" class=\"btn btn-lg btn-flat btn-success\" role=\"button\" style=\"margin-bottom: 15px;\">\n            View Post\n          </a>\n            <div class=\"box box-info\">\n                <div class=\"box-header\">\n                    <h3 class=\"box-title\">Add Images for Lib\n                        <small>Markdown Editor</small>\n                    </h3>\n                </div>\n                <div class=\"box-body pad\">\n                    <div class=\"form-horizontal\" enctype=\"multipart/form-data\">\n                      <div class=\"form-group\">\n                          <label for=\"image\" class=\"col-sm-1 control-label\">Image</label>\n                          <div class=\"col-sm-5\">\n                              <dropzone :model=\"post.image\" :action=\"'/api/posts/'+postId+'/image'\"></dropzone>\n                          </div>\n                      </div>\n                    </div>\n                </div>\n            </div>\n            <!-- /.box -->\n        </div>\n        <!-- /.col-->\n    </div>\n    <!-- ./row -->\n</section>\n"
+if (module.hot) {(function () {  module.hot.accept()
+  var hotAPI = require("vue-hot-reload-api")
+  hotAPI.install(require("vue"), true)
+  if (!hotAPI.compatible) return
+  if (!module.hot.data) {
+    hotAPI.createRecord("_v-0e1c3a76", module.exports)
+  } else {
+    hotAPI.update("_v-0e1c3a76", module.exports, (typeof module.exports === "function" ? module.exports.options : module.exports).template)
+  }
+})()}
+},{"../Pnotice.js":96,"./img/Dropzone.vue":106,"babel-runtime/core-js/promise":1,"simplemde":87,"vue":92,"vue-hot-reload-api":88,"vue-multiselect/lib/vue-multiselect.js":89}],103:[function(require,module,exports){
 'use strict';
 
 Object.defineProperty(exports, "__esModule", {
@@ -36429,12 +36604,12 @@ if (module.hot) {(function () {  module.hot.accept()
   hotAPI.install(require("vue"), true)
   if (!hotAPI.compatible) return
   if (!module.hot.data) {
-    hotAPI.createRecord("_v-f6bd716c", module.exports)
+    hotAPI.createRecord("_v-8a3bde24", module.exports)
   } else {
-    hotAPI.update("_v-f6bd716c", module.exports, (typeof module.exports === "function" ? module.exports.options : module.exports).template)
+    hotAPI.update("_v-8a3bde24", module.exports, (typeof module.exports === "function" ? module.exports.options : module.exports).template)
   }
 })()}
-},{"../Pnotice.js":96,"vue":92,"vue-hot-reload-api":88,"vue-multiselect/lib/vue-multiselect.js":89,"vuejs-paginator/dist/vuejs-paginator.min.js":94}],103:[function(require,module,exports){
+},{"../Pnotice.js":96,"vue":92,"vue-hot-reload-api":88,"vue-multiselect/lib/vue-multiselect.js":89,"vuejs-paginator/dist/vuejs-paginator.min.js":94}],104:[function(require,module,exports){
 'use strict';
 
 Object.defineProperty(exports, "__esModule", {
@@ -36485,12 +36660,12 @@ if (module.hot) {(function () {  module.hot.accept()
   hotAPI.install(require("vue"), true)
   if (!hotAPI.compatible) return
   if (!module.hot.data) {
-    hotAPI.createRecord("_v-16a55e60", module.exports)
+    hotAPI.createRecord("_v-804b61f8", module.exports)
   } else {
-    hotAPI.update("_v-16a55e60", module.exports, (typeof module.exports === "function" ? module.exports.options : module.exports).template)
+    hotAPI.update("_v-804b61f8", module.exports, (typeof module.exports === "function" ? module.exports.options : module.exports).template)
   }
 })()}
-},{"../Pnotice.js":96,"vue":92,"vue-hot-reload-api":88}],104:[function(require,module,exports){
+},{"../Pnotice.js":96,"vue":92,"vue-hot-reload-api":88}],105:[function(require,module,exports){
 var __vueify_insert__ = require("vueify/lib/insert-css")
 var __vueify_style__ = __vueify_insert__.insert("\nbody {\n  font-family: Helvetica, sans-serif;\n}\n")
 'use strict';
@@ -36540,12 +36715,114 @@ if (module.hot) {(function () {  module.hot.accept()
     document.head.removeChild(__vueify_style__)
   })
   if (!module.hot.data) {
-    hotAPI.createRecord("_v-217b36ff", module.exports)
+    hotAPI.createRecord("_v-57bc00a3", module.exports)
   } else {
-    hotAPI.update("_v-217b36ff", module.exports, (typeof module.exports === "function" ? module.exports.options : module.exports).template)
+    hotAPI.update("_v-57bc00a3", module.exports, (typeof module.exports === "function" ? module.exports.options : module.exports).template)
   }
 })()}
-},{"vue":92,"vue-hot-reload-api":88,"vueify/lib/insert-css":93}],105:[function(require,module,exports){
+},{"vue":92,"vue-hot-reload-api":88,"vueify/lib/insert-css":93}],106:[function(require,module,exports){
+var __vueify_insert__ = require("vueify/lib/insert-css")
+var __vueify_style__ = __vueify_insert__.insert("\n")
+'use strict';
+
+Object.defineProperty(exports, "__esModule", {
+    value: true
+});
+
+var _dropzone = require('dropzone');
+
+var _dropzone2 = _interopRequireDefault(_dropzone);
+
+var _vue = require('vue');
+
+var _vue2 = _interopRequireDefault(_vue);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+exports.default = {
+    props: {
+        model: { required: true },
+        action: { required: true }
+    },
+    ready: function ready() {
+        var component = this;
+
+        var previewNode = document.querySelector("#template");
+        previewNode.id = "";
+        var previewTemplate = previewNode.parentNode.innerHTML;
+        previewNode.parentNode.removeChild(previewNode);
+
+        var myDropzone = new _dropzone2.default(document.getElementById('actions'), { // Make the whole body a dropzone
+            url: this.action, // Set the url
+            thumbnailWidth: 400,
+            thumbnailHeight: 250,
+            parallelUploads: 20,
+            previewTemplate: previewTemplate,
+            autoQueue: false, // Make sure the files aren't queued until manually added
+            previewsContainer: "#previews", // Define the container to display the previews
+            clickable: ".fileinput-button" // Define the element that should be used as click trigger to select files.
+        });
+
+        myDropzone.on("addedfile", function (file) {
+            // hide actions
+            document.getElementById('actions').style.display = "none";
+            // Hookup the start button
+            file.previewElement.querySelector(".start").onclick = function () {
+                myDropzone.enqueueFile(file);
+            };
+
+            //set cancel
+            document.querySelector("#previews .cancel").onclick = function () {
+                // show actions
+                document.getElementById('actions').style.display = "block";
+                myDropzone.removeAllFiles(true);
+            };
+        });
+
+        // Events regarding update
+        myDropzone.on("sending", function (file) {
+            // Show the total progress bar when upload starts
+            document.querySelector("#total-progress").style.opacity = "1";
+            // And disable the start button
+            file.previewElement.querySelector(".start").setAttribute("disabled", "disabled");
+        });
+
+        myDropzone.on("success", function (response) {
+            // update image src
+            var imageSrc = JSON.parse(response.xhr.response).image;
+            document.getElementById('eikona').setAttribute('src', imageSrc);
+            // show actions
+            document.getElementById('actions').style.display = "block";
+            // hide previes
+            document.getElementById('previews').style.display = "none";
+
+            myDropzone.removeAllFiles(true);
+
+            console.log(component, imageSrc);
+            // update model with the new image
+            _vue2.default.set(component, 'model', imageSrc);
+
+            console.log(component, component.model);
+        });
+    }
+};
+if (module.exports.__esModule) module.exports = module.exports.default
+;(typeof module.exports === "function"? module.exports.options: module.exports).template = "\n<div id=\"actions\">\n    <div class=\"row\">\n        <div class=\"col-lg-12\">\n            <!-- This is used as the file preview template -->\n            <div>\n                <span class=\"preview\"><img data-dz-thumbnail=\"\" :src=\"model\" id=\"eikona\" height=\"250\" class=\"img-responsive\"></span>\n            </div>\n        </div>\n    </div>\n    <div class=\"row\">\n        <div class=\"col-lg-12\">\n            <!-- The fileinput-button span is used to style the file input field as button -->\n            <button class=\"btn btn-warning btn-flat btn-block fileinput-button dz-clickable\">\n                <i class=\"fa fa-edit\"></i>\n                <span>Update Image</span>\n            </button>\n        </div>\n    </div>\n</div>\n\n\n<div class=\"table table-striped files\" id=\"previews\">\n\n    <div id=\"template\" class=\"file-row\">\n        <!-- This is used as the file preview template -->\n        <div>\n            <span class=\"preview\"><img data-dz-thumbnail=\"\"></span>\n        </div>\n        <div>\n            <p class=\"name\" data-dz-name=\"\"></p>\n            <strong class=\"error text-danger\" data-dz-errormessage=\"\"></strong>\n        </div>\n        <div>\n            <p class=\"size\" data-dz-size=\"\"></p>\n            <div id=\"total-progress\" class=\"progress progress-striped active\" role=\"progressbar\" aria-valuemin=\"0\" aria-valuemax=\"100\" aria-valuenow=\"0\">\n                <div class=\"progress-bar progress-bar-success\" style=\"width:0%;\" data-dz-uploadprogress=\"\"></div>\n            </div>\n        </div>\n        <div>\n            <button class=\"btn btn-primary start\">\n                <i class=\"fa fa-upload\"></i>\n                <span>Start</span>\n            </button>\n            <button data-dz-remove=\"\" class=\"btn btn-warning cancel\">\n                <i class=\"fa fa-remove\"></i>\n                <span>Cancel</span>\n            </button>\n        </div>\n    </div>\n\n</div>\n"
+if (module.hot) {(function () {  module.hot.accept()
+  var hotAPI = require("vue-hot-reload-api")
+  hotAPI.install(require("vue"), true)
+  if (!hotAPI.compatible) return
+  module.hot.dispose(function () {
+    __vueify_insert__.cache["\n"] = false
+    document.head.removeChild(__vueify_style__)
+  })
+  if (!module.hot.data) {
+    hotAPI.createRecord("_v-f972dcc8", module.exports)
+  } else {
+    hotAPI.update("_v-f972dcc8", module.exports, (typeof module.exports === "function" ? module.exports.options : module.exports).template)
+  }
+})()}
+},{"dropzone":66,"vue":92,"vue-hot-reload-api":88,"vueify/lib/insert-css":93}],107:[function(require,module,exports){
 'use strict';
 
 Object.defineProperty(exports, "__esModule", {
@@ -36578,20 +36855,20 @@ exports.default = {
   }
 };
 if (module.exports.__esModule) module.exports = module.exports.default
-;(typeof module.exports === "function"? module.exports.options: module.exports).template = "\n<header class=\"main-header\">\n  <!-- Logo -->\n  <a @click=\"goHome\" href=\"#\" class=\"logo\">\n    <!-- mini logo for sidebar mini 50x50 pixels -->\n    <span class=\"logo-mini\"><b>V</b>UE</span>\n    <!-- logo for regular state and mobile devices -->\n    <span class=\"logo-lg\"><b>Vue.js</b> News</span>\n  </a>\n  <!-- Header Navbar -->\n  <nav class=\"navbar navbar-static-top\" role=\"navigation\">\n    <!-- Sidebar toggle button-->\n    <a href=\"#\" class=\"sidebar-toggle\" data-toggle=\"offcanvas\" role=\"button\">\n      <span class=\"sr-only\">Toggle navigation</span>\n    </a>\n    <!-- Navbar Right Menu -->\n    <div class=\"navbar-custom-menu\">\n      <ul class=\"nav navbar-nav\">\n\n        <!-- User Account Menu -->\n        <li class=\"dropdown user user-menu\">\n          <!-- Menu Toggle Button -->\n          <a href=\"#\" class=\"dropdown-toggle\" data-toggle=\"dropdown\">\n            <!-- The user image in the navbar-->\n            <img class=\"profile-user-img img-responsive img-circle user-image\" :src=\"user.avatar\" alt=\"User profile picture\">\n            <!-- hidden-xs hides the username on small devices so only the image appears. -->\n            <span class=\"hidden-xs\">{{user.name}}</span>\n          </a>\n          <ul class=\"dropdown-menu\">\n            <!-- The user image in the menu -->\n            <li class=\"user-header\">\n              <img class=\"profile-user-img img-responsive img-circle\" :src=\"user.avatar\" alt=\"User profile picture\">\n\n              <p>\n                {{user.name}}\n                <small>{{user.username}}</small>\n              </p>\n            </li>\n            <!-- Menu Body -->\n\n            <!-- Menu Footer-->\n            <li class=\"user-footer\">\n              <div class=\"pull-left\">\n                <a v-link=\"{ path: '/profile' }\" class=\"btn btn-default btn-flat\">Profile</a>\n              </div>\n              <div class=\"pull-right\">\n                <a href=\"#\" class=\"btn btn-default btn-flat\" @click=\"logout\">Log out</a>\n              </div>\n            </li>\n          </ul>\n        </li>\n        <!-- Control Sidebar Toggle Button -->\n      </ul>\n    </div>\n  </nav>\n</header>\n"
+;(typeof module.exports === "function"? module.exports.options: module.exports).template = "\n<header class=\"main-header\">\n  <!-- Logo -->\n  <a @click=\"goHome\" href=\"#\" class=\"logo\">\n    <!-- mini logo for sidebar mini 50x50 pixels -->\n    <span class=\"logo-mini\"><b>T</b>gr8</span>\n    <!-- logo for regular state and mobile devices -->\n    <span class=\"logo-lg\"><b>Toogr8</b> News</span>\n  </a>\n  <!-- Header Navbar -->\n  <nav class=\"navbar navbar-static-top\" role=\"navigation\">\n    <!-- Sidebar toggle button-->\n    <a href=\"#\" class=\"sidebar-toggle\" data-toggle=\"offcanvas\" role=\"button\">\n      <span class=\"sr-only\">Toggle navigation</span>\n    </a>\n    <!-- Navbar Right Menu -->\n    <div class=\"navbar-custom-menu\">\n      <ul class=\"nav navbar-nav\">\n\n        <!-- User Account Menu -->\n        <li class=\"dropdown user user-menu\">\n          <!-- Menu Toggle Button -->\n          <a href=\"#\" class=\"dropdown-toggle\" data-toggle=\"dropdown\">\n            <!-- The user image in the navbar-->\n            <img class=\"profile-user-img img-responsive img-circle user-image\" :src=\"user.avatar\" alt=\"User profile picture\">\n            <!-- hidden-xs hides the username on small devices so only the image appears. -->\n            <span class=\"hidden-xs\">{{user.name}}</span>\n          </a>\n          <ul class=\"dropdown-menu\">\n            <!-- The user image in the menu -->\n            <li class=\"user-header\">\n              <img class=\"profile-user-img img-responsive img-circle\" :src=\"user.avatar\" alt=\"User profile picture\">\n\n              <p>\n                {{user.name}}\n                <small>{{user.username}}</small>\n              </p>\n            </li>\n            <!-- Menu Body -->\n\n            <!-- Menu Footer-->\n            <li class=\"user-footer\">\n              <div class=\"pull-left\">\n                <a v-link=\"{ path: '/profile' }\" class=\"btn btn-default btn-flat\">Profile</a>\n              </div>\n              <div class=\"pull-right\">\n                <a href=\"#\" class=\"btn btn-default btn-flat\" @click=\"logout\">Log out</a>\n              </div>\n            </li>\n          </ul>\n        </li>\n        <!-- Control Sidebar Toggle Button -->\n      </ul>\n    </div>\n  </nav>\n</header>\n"
 if (module.hot) {(function () {  module.hot.accept()
   var hotAPI = require("vue-hot-reload-api")
   hotAPI.install(require("vue"), true)
   if (!hotAPI.compatible) return
   if (!module.hot.data) {
-    hotAPI.createRecord("_v-1c05e322", module.exports)
+    hotAPI.createRecord("_v-26ca456a", module.exports)
   } else {
-    hotAPI.update("_v-1c05e322", module.exports, (typeof module.exports === "function" ? module.exports.options : module.exports).template)
+    hotAPI.update("_v-26ca456a", module.exports, (typeof module.exports === "function" ? module.exports.options : module.exports).template)
   }
 })()}
-},{"vue":92,"vue-hot-reload-api":88}],106:[function(require,module,exports){
+},{"vue":92,"vue-hot-reload-api":88}],108:[function(require,module,exports){
 var __vueify_insert__ = require("vueify/lib/insert-css")
-var __vueify_style__ = __vueify_insert__.insert("\nh1[_v-82863de6] {\n  color: #42b983;\n}\naside[_v-82863de6] {\n  height: 2100px;\n}\n.user-panel[_v-82863de6] {\n  cursor: pointer;\n}\n")
+var __vueify_style__ = __vueify_insert__.insert("\nh1[_v-17d8edb1] {\n  color: #42b983;\n}\naside[_v-17d8edb1] {\n  height: 2100px;\n}\n.user-panel[_v-17d8edb1] {\n  cursor: pointer;\n}\n")
 'use strict';
 
 Object.defineProperty(exports, "__esModule", {
@@ -36636,22 +36913,22 @@ exports.default = {
   }
 };
 if (module.exports.__esModule) module.exports = module.exports.default
-;(typeof module.exports === "function"? module.exports.options: module.exports).template = "\n<aside class=\"main-sidebar\" _v-82863de6=\"\">\n\n  <!-- sidebar: style can be found in sidebar.less -->\n  <section class=\"sidebar\" _v-82863de6=\"\">\n  {{creatingPost}}\n    <!-- Sidebar user panel (optional) -->\n    <div v-link=\"{ path: '/profile' }\" class=\"user-panel\" _v-82863de6=\"\">\n      <div class=\"pull-left image\" _v-82863de6=\"\">\n        <img class=\"profile-user-img img-responsive img-circle\" :src=\"user.avatar\" alt=\"User profile picture\" _v-82863de6=\"\">\n      </div>\n      <div class=\"pull-left info\" _v-82863de6=\"\">\n        <p _v-82863de6=\"\">{{user.name}}</p>\n        <!-- Status -->\n        <a href=\"#\" _v-82863de6=\"\"><i class=\"fa fa-circle text-success\" _v-82863de6=\"\"></i> Online</a>\n      </div>\n    </div>\n\n    <!-- Sidebar Menu -->\n    <ul class=\"sidebar-menu\" _v-82863de6=\"\">\n      <li _v-82863de6=\"\"><a v-link=\"{ path: '/' }\" _v-82863de6=\"\"><i class=\"fa fa-home\" _v-82863de6=\"\"></i> <span _v-82863de6=\"\">Home</span></a></li>\n      <!-- Optionally, you can add icons to the links -->\n      <li class=\"treeview\" _v-82863de6=\"\">\n        <a href=\"#\" _v-82863de6=\"\">\n          <i class=\"fa fa-list\" _v-82863de6=\"\"></i> <span _v-82863de6=\"\">Posts</span> <i class=\"fa fa-angle-left pull-right\" _v-82863de6=\"\"></i>\n        </a>\n        <ul class=\"treeview-menu\" _v-82863de6=\"\">\n          <li _v-82863de6=\"\"><a v-link=\"{ path: '/posts' }\" _v-82863de6=\"\"><i class=\"fa fa-tasks\" _v-82863de6=\"\"></i>Index</a></li>\n          <li _v-82863de6=\"\"><a @click=\"createPost\" href=\"#\" _v-82863de6=\"\"><i class=\"fa fa-keyboard-o\" _v-82863de6=\"\"></i>Create post</a></li>\n        </ul>\n      </li>\n      <li _v-82863de6=\"\"><a v-link=\"{ path: '/categories' }\" _v-82863de6=\"\"><i class=\"fa fa-th-large\" _v-82863de6=\"\"></i> <span _v-82863de6=\"\">Categories</span></a></li>\n      <li _v-82863de6=\"\"><a v-link=\"{ path: '/users' }\" _v-82863de6=\"\"><i class=\"fa fa-users\" _v-82863de6=\"\"></i> <span _v-82863de6=\"\">Users</span></a></li>\n    </ul>\n    <!-- /.sidebar-menu -->\n  </section>\n  <!-- /.sidebar -->\n</aside>\n<div class=\"control-sidebar-bg\" _v-82863de6=\"\"></div>\n"
+;(typeof module.exports === "function"? module.exports.options: module.exports).template = "\n<aside class=\"main-sidebar\" _v-17d8edb1=\"\">\n\n  <!-- sidebar: style can be found in sidebar.less -->\n  <section class=\"sidebar\" _v-17d8edb1=\"\">\n  {{creatingPost}}\n    <!-- Sidebar user panel (optional) -->\n    <div v-link=\"{ path: '/profile' }\" class=\"user-panel\" _v-17d8edb1=\"\">\n      <div class=\"pull-left image\" _v-17d8edb1=\"\">\n        <img class=\"profile-user-img img-responsive img-circle\" :src=\"user.avatar\" alt=\"User profile picture\" _v-17d8edb1=\"\">\n      </div>\n      <div class=\"pull-left info\" _v-17d8edb1=\"\">\n        <p _v-17d8edb1=\"\">{{user.name}}</p>\n        <!-- Status -->\n        <a href=\"#\" _v-17d8edb1=\"\"><i class=\"fa fa-circle text-success\" _v-17d8edb1=\"\"></i> Online</a>\n      </div>\n    </div>\n\n    <!-- Sidebar Menu -->\n    <ul class=\"sidebar-menu\" _v-17d8edb1=\"\">\n      <li _v-17d8edb1=\"\"><a v-link=\"{ path: '/' }\" _v-17d8edb1=\"\"><i class=\"fa fa-home\" _v-17d8edb1=\"\"></i> <span _v-17d8edb1=\"\">Home</span></a></li>\n      <!-- Optionally, you can add icons to the links -->\n      <li class=\"treeview\" _v-17d8edb1=\"\">\n        <a href=\"#\" _v-17d8edb1=\"\">\n          <i class=\"fa fa-list\" _v-17d8edb1=\"\"></i> <span _v-17d8edb1=\"\">Posts</span> <i class=\"fa fa-angle-left pull-right\" _v-17d8edb1=\"\"></i>\n        </a>\n        <ul class=\"treeview-menu\" _v-17d8edb1=\"\">\n          <li _v-17d8edb1=\"\"><a v-link=\"{ path: '/posts' }\" _v-17d8edb1=\"\"><i class=\"fa fa-tasks\" _v-17d8edb1=\"\"></i>Index</a></li>\n          <li _v-17d8edb1=\"\"><a @click=\"createPost\" href=\"#\" _v-17d8edb1=\"\"><i class=\"fa fa-keyboard-o\" _v-17d8edb1=\"\"></i>Create post</a></li>\n        </ul>\n      </li>\n      <li _v-17d8edb1=\"\"><a v-link=\"{ path: '/categories' }\" _v-17d8edb1=\"\"><i class=\"fa fa-th-large\" _v-17d8edb1=\"\"></i> <span _v-17d8edb1=\"\">Categories</span></a></li>\n      <li _v-17d8edb1=\"\"><a v-link=\"{ path: '/users' }\" _v-17d8edb1=\"\"><i class=\"fa fa-users\" _v-17d8edb1=\"\"></i> <span _v-17d8edb1=\"\">Users</span></a></li>\n      <li _v-17d8edb1=\"\"><a v-link=\"{ path: '/images' }\" _v-17d8edb1=\"\"><i class=\"fa fa-users\" _v-17d8edb1=\"\"></i> <span _v-17d8edb1=\"\">Images</span></a></li>\n    </ul>\n    <!-- /.sidebar-menu -->\n  </section>\n  <!-- /.sidebar -->\n</aside>\n<div class=\"control-sidebar-bg\" _v-17d8edb1=\"\"></div>\n"
 if (module.hot) {(function () {  module.hot.accept()
   var hotAPI = require("vue-hot-reload-api")
   hotAPI.install(require("vue"), true)
   if (!hotAPI.compatible) return
   module.hot.dispose(function () {
-    __vueify_insert__.cache["\nh1[_v-82863de6] {\n  color: #42b983;\n}\naside[_v-82863de6] {\n  height: 2100px;\n}\n.user-panel[_v-82863de6] {\n  cursor: pointer;\n}\n"] = false
+    __vueify_insert__.cache["\nh1[_v-17d8edb1] {\n  color: #42b983;\n}\naside[_v-17d8edb1] {\n  height: 2100px;\n}\n.user-panel[_v-17d8edb1] {\n  cursor: pointer;\n}\n"] = false
     document.head.removeChild(__vueify_style__)
   })
   if (!module.hot.data) {
-    hotAPI.createRecord("_v-82863de6", module.exports)
+    hotAPI.createRecord("_v-17d8edb1", module.exports)
   } else {
-    hotAPI.update("_v-82863de6", module.exports, (typeof module.exports === "function" ? module.exports.options : module.exports).template)
+    hotAPI.update("_v-17d8edb1", module.exports, (typeof module.exports === "function" ? module.exports.options : module.exports).template)
   }
 })()}
-},{"../../Pnotice.js":96,"vue":92,"vue-hot-reload-api":88,"vueify/lib/insert-css":93}],107:[function(require,module,exports){
+},{"../../Pnotice.js":96,"vue":92,"vue-hot-reload-api":88,"vueify/lib/insert-css":93}],109:[function(require,module,exports){
 'use strict';
 
 var _vue = require('vue');
@@ -36711,6 +36988,9 @@ router.map({
     },
     '/profile': {
         component: require('./components/Profile.vue')
+    },
+    '/images': {
+        component: require('./components/Image.vue')
     }
 });
 
@@ -36724,6 +37004,6 @@ router.alias({
 
 router.start(_App2.default, 'body');
 
-},{"./App.vue":95,"./components/Categories.vue":97,"./components/Editcategory.vue":99,"./components/Editpost.vue":100,"./components/Home.vue":101,"./components/Posts.vue":102,"./components/Profile.vue":103,"./components/Users.vue":104,"vue":92,"vue-resource":90,"vue-router":91}]},{},[107]);
+},{"./App.vue":95,"./components/Categories.vue":97,"./components/Editcategory.vue":99,"./components/Editpost.vue":100,"./components/Home.vue":101,"./components/Image.vue":102,"./components/Posts.vue":103,"./components/Profile.vue":104,"./components/Users.vue":105,"vue":92,"vue-resource":90,"vue-router":91}]},{},[109]);
 
 //# sourceMappingURL=main.js.map

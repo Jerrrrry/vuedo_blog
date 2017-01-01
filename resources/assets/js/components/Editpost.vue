@@ -3,6 +3,14 @@
 <section class="content">
     <div class="row">
         <div class="col-md-12">
+           <pre>{{ post | json }}</pre>
+
+        </div>
+        <div class="col-md-12">
+           <pre>{{ options2 | json }}</pre>
+
+        </div>
+        <div class="col-md-12">
           <a v-if="post.status == 'approved'" href="/blog/{{post.slug}}" target="blank"  class="btn btn-lg btn-flat btn-success" role="button" style="margin-bottom: 15px;">
             View Post
           </a>
