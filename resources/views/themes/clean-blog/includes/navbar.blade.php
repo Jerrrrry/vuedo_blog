@@ -18,6 +18,9 @@
                         <a href="{{route('web.category', $category->name)}}">{{$category->name}}</a>
                     </li>
                 @endforeach
+                    <li>
+                        <a href="https://webmasters.coomeet.com/14832511507363">Coomeet</a>
+                    </li>
             </ul>
         </div>
         <!-- /.navbar-collapse -->
